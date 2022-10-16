@@ -1,0 +1,22 @@
+.header__nav {
+  display: flex;
+  gap: 32px;
+}
+
+.header__nav:first-child {
+  margin-right: 31px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__nav {
+    margin: 0 10px;
+    text-align: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .header__nav:first-child {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,4 @@
+.social-media {
+  grid-area: media;
+  justify-self: end;
+}

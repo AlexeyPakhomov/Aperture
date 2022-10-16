@@ -1,0 +1,6 @@
+.grid-container__drone {
+  background-image: url(../../../images/Drone.jpg);
+  background-size: cover;
+  max-width: 576px;
+  min-height: 600px;
+}

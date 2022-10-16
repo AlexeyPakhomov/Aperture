@@ -1,0 +1,6 @@
+.grid-container__architecture {
+  background-image: url(../../../images/Architecture.jpg);
+  background-size: cover;
+  max-width: 576px;
+  min-height: 600px;
+}

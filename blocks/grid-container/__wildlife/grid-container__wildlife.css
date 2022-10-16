@@ -1,0 +1,6 @@
+.grid-container__wildlife {
+  background-image: url(../../../images/Wildlife.jpg);
+  background-size: cover;
+  max-width: 576px;
+  min-height: 600px;
+}

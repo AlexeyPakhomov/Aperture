@@ -1,0 +1,12 @@
+.aperture-studios__subtitle {
+  order: -1;
+  margin: 0 auto 1px;
+  min-width: 263px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+}

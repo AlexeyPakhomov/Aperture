@@ -1,0 +1,14 @@
+.aperture-studios {
+  box-sizing: border-box;
+  position: relative;
+  margin: 0 auto 120px;
+  max-width: 1440px;
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(../../images/Aperture\ Studios.jpg);
+  background-size: cover;
+  background-position: center;
+}

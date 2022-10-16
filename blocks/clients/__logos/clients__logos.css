@@ -1,0 +1,8 @@
+.clients__logos {
+  max-width: 1168px;
+  margin: 0 auto 100px;
+  display: flex;
+  justify-content: center;
+  gap: 109px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,33 @@
+.footer__frame {
+  max-width: 1168px;
+  margin: 0 auto;
+  display: grid;
+  /* grid-template-columns: minmax(min-content, 400px) repeat(3, minmax(min-content, 1fr));
+  grid-template-rows: minmax(min-content, 200px) 74px minmax(min-content, 60px) 94px minmax(min-content, 24px); */
+  grid-template-columns: minmax(min-content, 2fr) repeat(3, minmax(min-content, 1fr));
+  grid-template-rows: minmax(min-content, 200px) 74px minmax(min-content, 60px) 94px minmax(min-content, 24px);
+  grid-template-areas:
+    "logo . business-areas pages"
+    "line-one line-one line-one line-one"
+    "subscribe subscribe form form"
+    "line-two line-two line-two line-two"
+    "copyright copyright . media";
+  column-gap: 16px;
+}
+
+@media screen and (max-width: 400px) {
+  .footer__frame {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 10px;
+    grid-template-areas:
+      "logo ."
+      "business-areas pages"
+      "line-one line-one"
+      "subscribe subscribe"
+      "form form"
+      "line-two line-two"
+      "copyright copyright"
+      ". media";
+  }
+}

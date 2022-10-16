@@ -1,0 +1,7 @@
+.two-columns {
+  margin: 0 auto;
+  max-width: 1440px;
+  min-height: 540px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

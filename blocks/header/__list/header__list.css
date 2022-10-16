@@ -1,0 +1,12 @@
+.header__list:first-child {
+  margin-right: 56px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__list:first-child {
+    margin-right: 26px;
+    text-align: center;
+    margin: 0;
+  }
+}

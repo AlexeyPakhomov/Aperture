@@ -1,0 +1,7 @@
+.line-two {
+  grid-area: line-two;
+  width: 100%;
+  height: 2px;
+  margin: 36px auto 56px;
+  background-color: #FFFFFF;
+}

@@ -1,0 +1,15 @@
+.form__btn {
+  margin: 0;
+  padding: 0;
+  min-width: 13.75%;
+  height: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+  background-color: #000000;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 11px;
+  box-sizing: border-box;
+  text-align: center;
+}

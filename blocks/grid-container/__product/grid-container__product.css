@@ -1,0 +1,7 @@
+.grid-container__product {
+  background-image: url(../../../images/Product.jpg);
+  background-size: cover;
+  background-position: center;
+  max-width: 576px;
+  min-height: 600px;
+}

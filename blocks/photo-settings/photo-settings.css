@@ -1,0 +1,15 @@
+.photo-settings {
+  margin: 0;
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  /* min-width: 295px; */
+  display: flex;
+  gap: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .photo-settings {
+    flex-wrap: wrap;
+  }
+}

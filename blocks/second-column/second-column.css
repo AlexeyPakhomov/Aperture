@@ -1,0 +1,7 @@
+.second-column {
+  position: relative;
+  max-width: 720px;
+  background-image: url(../../images/The\ Gear\ cage.jpg);
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,7 @@
+.first-column {
+  max-width: 600px;
+  margin: auto;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+}

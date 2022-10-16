@@ -1,0 +1,16 @@
+.form {
+  grid-area: form;
+  max-width: 458px;
+  min-height: 52px;
+  position: relative;
+  padding: 7px 6px 7px 7px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  background-color: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+}

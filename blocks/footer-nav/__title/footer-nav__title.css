@@ -1,0 +1,9 @@
+.footer-nav__title {
+  margin: 0 0 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+}
