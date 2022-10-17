@@ -2,6 +2,13 @@
   margin: 0 auto;
   max-width: 1440px;
   min-height: 540px;
+  background-size: cover;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 767px) {
+  .two-columns {
+    grid-template-columns: 1fr;
+  }
 }

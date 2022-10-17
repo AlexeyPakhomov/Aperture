@@ -12,3 +12,9 @@
   background-size: cover;
   background-position: center;
 }
+
+@media screen and (max-width: 767px) {
+  .aperture-studios {
+    margin-top: 10px;
+  }
+}
